@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Currency</string>
+    <string name="app_name">Currency Converter</string>
+    <string name="real">Real (R$):</string>
+    <string name="dollar">Dollar ($):</string>
+    <string name="euro">Euro (€):</string>
+    <string name="convert">Convert</string>
+    <string name="value">value</string>
 </resources>
