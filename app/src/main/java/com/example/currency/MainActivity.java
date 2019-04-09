@@ -30,7 +30,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         int id = view.getId();
         if (id == R.id.button_calc) {
-            this.newViewHolder.buttonCalc.setText("TEST");
+            //this.newViewHolder.buttonCalc.setText("TEST");
+            Double value = Double.valueOf(this.newViewHolder.editValue.getText().toString());
+            this.newViewHolder.textDollar.setText(String.format("$ %.2f",value * 3));
+            this.newViewHolder.textEuro.setText(String.format("€ %.2f", value * 4));
         }
     }
 
