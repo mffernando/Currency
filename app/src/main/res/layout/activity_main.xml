@@ -10,21 +10,26 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/real"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Qual o valor em real?"
+        android:layout_gravity="center"
+        android:textSize="25sp"/>
 
     <EditText
         android:id="@+id/edit_value"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="35dp"
+        android:padding="10dp"
+        android:textAlignment="center"
         android:hint="@string/value"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
         android:hint="@string/dollar"/>
 
     <TextView
